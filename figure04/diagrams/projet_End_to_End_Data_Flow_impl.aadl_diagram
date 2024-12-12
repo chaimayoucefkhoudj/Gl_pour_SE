@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="ASCII"?>
+<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="7">
+  <element uuid="535b4d5c-325d-465b-b229-ec6b16f3ca88" manual="true">
+    <element uuid="ee5aa86d-e22e-4497-8596-c763ae8a40d4" manual="true">
+      <element uuid="c1aedc01-dd05-487f-abf7-6819a58dfe0e" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>AirData</seg>
+      </bo>
+    </element>
+    <element uuid="85ebb95c-94d5-4f98-9ccb-b3dc53d72fac" manual="true">
+      <element uuid="e0eaf1af-d5c9-4c3a-86a3-68d96606ae8f" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>AttackAngles</seg>
+      </bo>
+      <bendpoints>
+        <point x="1062.0" y="102.0"/>
+        <point x="1063.0" y="180.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="b557e51b-f9e3-4cba-9478-6ee83c99a2d3" manual="true">
+      <element uuid="e9612542-326b-418b-926b-5b05740974cb" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>Display</seg>
+      </bo>
+    </element>
+    <element uuid="39b2b3ae-e0c1-45c9-a1c0-a92db74f5cff" manual="true">
+      <element uuid="fe9afa8a-6dd0-4b40-8e13-54836ddc1e8c" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>Head</seg>
+      </bo>
+    </element>
+    <element uuid="f756e54e-16db-4d5f-80e5-efbdcd0c4f79" manual="true">
+      <element uuid="0fbfdf7a-7302-45ef-9706-afd41ffc1372" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>Pressure1</seg>
+      </bo>
+      <bendpoints>
+        <point x="1111.0" y="-38.0"/>
+        <point x="1111.0" y="52.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="7b6c06a2-1d52-4a29-9f09-b6d2326906f2" manual="true">
+      <element uuid="d2f557b0-1844-4126-ae13-e862cb48c5d7" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>Pressure2</seg>
+      </bo>
+      <bendpoints>
+        <point x="1087.0" y="6.0"/>
+        <point x="1087.0" y="95.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="341809a9-58c7-4016-8b33-c9d9886291b9" manual="true">
+      <element uuid="ab51a3a4-8b1f-4e7d-8d6f-42a211dd0226" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>Temperature</seg>
+      </bo>
+      <bendpoints>
+        <point x="1089.0" y="322.0"/>
+        <point x="1090.0" y="282.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="bd0aed7d-120e-4cb8-a2cd-ce70a122d41a" manual="true">
+      <element uuid="43b42432-c301-416f-bbda-47681865e9d8" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>ADInIndicateAngleAttack</seg>
+        </bo>
+        <position y="130.0"/>
+      </element>
+      <element uuid="47b4d87c-d252-44ef-951a-5a14811c580b" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>ADInPressureSetting</seg>
+        </bo>
+        <position y="180.0"/>
+      </element>
+      <element uuid="62cfebc1-e38c-478f-99c8-4e4adfd8944f" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>ADInStaticPressure</seg>
+        </bo>
+        <position y="45.0"/>
+      </element>
+      <element uuid="71f8b29f-3388-4a92-a15f-2e31b12cc7b6" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>ADInTemperature</seg>
+        </bo>
+        <position y="230.0"/>
+      </element>
+      <element uuid="2681b968-c510-4f2d-97a6-2609e20a4358" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>ADInTotalPressure</seg>
+        </bo>
+        <position/>
+      </element>
+      <element uuid="585e1ff2-5d79-4f0f-b96e-98d0f9724954" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>output</seg>
+        </bo>
+        <position x="423.92969131469727" y="110.0"/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>AirDataManager</seg>
+      </bo>
+      <position x="460.0" y="130.0"/>
+      <size width="473.0" height="282.0"/>
+    </element>
+    <element uuid="bf7d32f9-37dc-426f-8a78-dd03f308bc48" manual="true">
+      <element uuid="5dbfa365-72d9-487b-a2c6-f7ba71576a42" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>output</seg>
+        </bo>
+        <position x="219.92969131469727"/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>AttackAngleSensor</seg>
+      </bo>
+      <position x="40.0" y="180.0"/>
+      <size width="269.0" height="60.0"/>
+    </element>
+    <element uuid="a468f0b2-eae0-4721-b67f-d36d4c499c4c" manual="true">
+      <element uuid="318be5b5-e316-4b98-8a9c-b855c879fdac" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>input</seg>
+        </bo>
+        <position/>
+      </element>
+      <element uuid="3b99a838-f939-4230-99cf-2537a0e55b18" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>output</seg>
+        </bo>
+        <position x="200.92969131469727"/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>DisplayManager</seg>
+      </bo>
+      <position x="980.0" y="240.0"/>
+      <size width="250.0" height="70.0"/>
+    </element>
+    <element uuid="0b28b0fe-99ad-4cf4-9121-c2d74d321515" manual="true">
+      <element uuid="d8716f0c-073e-43ad-bc38-a244daf11158" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>output</seg>
+        </bo>
+        <position x="231.92969131469727"/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>HeadDisplay</seg>
+      </bo>
+      <position x="40.0" y="310.0"/>
+      <size width="281.0" height="60.0"/>
+    </element>
+    <element uuid="644f7c86-0d39-41e2-bb14-78f1c02d82e4" manual="true">
+      <element uuid="cab85ba2-2b6c-4d5a-a7bd-0073752f8e10" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>input</seg>
+        </bo>
+        <position/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>PilotDisplay</seg>
+      </bo>
+      <position x="1330.0" y="240.0"/>
+      <size width="209.0" height="60.0"/>
+    </element>
+    <element uuid="1031d77a-9080-4178-8fe1-8bf0fc47b6ba" manual="true">
+      <element uuid="2349d275-453b-41bf-86ef-84f4e302be08" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>output1</seg>
+        </bo>
+        <position x="209.5143280029297"/>
+      </element>
+      <element uuid="f75dd121-0201-4343-a715-a1b4182c6554" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>output2</seg>
+        </bo>
+        <position x="209.5143280029297" y="45.0"/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>PressureSensor</seg>
+      </bo>
+      <position x="40.0" y="40.0"/>
+      <size width="266.0" height="100.0"/>
+    </element>
+    <element uuid="b37cc678-faf1-4801-bb12-aa2b0f785565" manual="true">
+      <element uuid="bac5865e-b004-41ad-a42b-e4f0ee3325fb" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>output</seg>
+        </bo>
+        <position x="224.92969131469727"/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>TemperatureSensor</seg>
+      </bo>
+      <position x="40.0" y="400.0"/>
+      <size width="274.0" height="60.0"/>
+    </element>
+    <bo>
+      <seg>classifier</seg>
+      <seg>End_to_End_Data_Flow.impl</seg>
+    </bo>
+    <position x="720.0" y="-110.0"/>
+    <size width="1620.0" height="670.0"/>
+  </element>
+  <config type="structure" connectionPrimaryLabelsVisible="false">
+    <enabledAadlProperties/>
+    <context>
+      <seg>classifier</seg>
+      <seg>projet::End_to_End_Data_Flow.impl</seg>
+    </context>
+  </config>
+</diagram:Diagram>

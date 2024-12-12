@@ -1,0 +1,92 @@
+package projet
+public
+	
+
+system End_to_End_Data_Flow
+end End_to_End_Data_Flow;
+
+system implementation End_to_End_Data_Flow.impl
+subcomponents
+  AirDataManager: process AirDataManager;
+  DisplayManager: process DisplayManager;
+  PressureSensor: device PressureSensor;
+  AttackAngleSensor: device AttackAngleSensor;
+  TemperatureSensor: device TemperatureSensor;
+  HeadDisplay: device HeadDisplay;
+  PilotDisplay: device PilotDisplay;
+
+connections
+  Pressure1: port PressureSensor.output1 -> AirDataManager.ADInTotalPressure;
+  Pressure2: port PressureSensor.output2 -> AirDataManager.ADInStaticPressure;
+  AttackAngles: port AttackAngleSensor.output -> AirDataManager.ADInIndicateAngleAttack;
+  Temperature: port TemperatureSensor.output -> AirDataManager.ADInTemperature;
+  Head: port HeadDisplay.output -> AirDataManager.ADInPressureSetting;
+  AirData: port AirDataManager.output -> DisplayManager.input;
+  Display: port DisplayManager.output -> PilotDisplay.input;
+
+end End_to_End_Data_Flow.impl;
+
+process AirDataManager
+features
+  output: out data port;
+  ADInTotalPressure: in data port;
+  ADInStaticPressure: in data port;
+  ADInIndicateAngleAttack: in data port;
+  ADInTemperature: in data port;
+  ADInPressureSetting: in data port;
+end AirDataManager;
+
+process implementation AirDataManager.composants
+end AirDataManager.composants;
+
+process DisplayManager
+features
+  output: out data port;
+  input: in data port;
+end DisplayManager;
+
+process implementation DisplayManager.composants
+end DisplayManager.composants;
+
+device PressureSensor
+features
+  output1: out data port;
+  output2: out data port;
+end PressureSensor;
+
+device implementation PressureSensor.impl
+end PressureSensor.impl;
+
+device AttackAngleSensor
+features
+  output: out data port;
+end AttackAngleSensor;
+
+device implementation AttackAngleSensor.impl
+end AttackAngleSensor.impl;
+
+device TemperatureSensor
+features
+  output: out data port;
+end TemperatureSensor;
+
+device implementation TemperatureSensor.impl
+end TemperatureSensor.impl;
+
+device HeadDisplay
+features
+  output: out data port;
+end HeadDisplay;
+
+device implementation HeadDisplay.impl
+end HeadDisplay.impl;
+
+device PilotDisplay
+features
+  input: in data port;
+end PilotDisplay;
+
+device implementation PilotDisplay.impl
+end PilotDisplay.impl;
+	
+end projet;
